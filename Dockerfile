@@ -2,10 +2,12 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY producer_consumer.py .
+COPY config.py .
+COPY shared_resources.py .
+COPY producer.py .
+COPY consumer.py .
+COPY main.py .
 
-# Set Python to run unbuffered
 ENV PYTHONUNBUFFERED=1
 
-# Command to run the application
-CMD ["python", "producer_consumer.py"]
+CMD ["python", "main.py"]
