@@ -1,0 +1,9 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  producer-consumer:
+    build: .
+    container_name: producer-consumer-app
+    volumes:
+      - ./:/app
