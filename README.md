@@ -23,3 +23,5 @@ producer_consumer/
 
 ## Running the Application
 docker-compose up
+
+![Kapture 2025-02-15 at 18 20 42](https://github.com/user-attachments/assets/c3035d51-1a9b-4cfb-8afd-01b90cbd5f4e)
