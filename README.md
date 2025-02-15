@@ -10,7 +10,9 @@ This is a Python implementation of the classic Producer-Consumer problem using m
 - Docker support for easy deployment
 
 ## Directory Structure
+```
 producer_consumer/
+│
 ├── config.py
 ├── shared_resources.py
 ├── producer.py
@@ -20,6 +22,7 @@ producer_consumer/
 ├── docker-compose.yml
 ├── .dockerignore
 └── README.md
+```
 
 ## Running the Application
 docker-compose up
